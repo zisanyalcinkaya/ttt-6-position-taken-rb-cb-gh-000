@@ -2,7 +2,7 @@
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
   def position_taken(board,index)
-    if board[index-1] == " "
+    if board[index] != " "
       return false
     end
   end
